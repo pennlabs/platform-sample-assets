@@ -6,5 +6,11 @@
             "text": "Penn Labs",
             "action": "https://pennlabs.org"
         }
+    ],
+    "strings": [
+        {
+            "primary": "Check out the Penn Labs TikTok",
+            "text": "Featuring exclusive content and much more 🔥🔥🔥"
+        }
     ]
 }

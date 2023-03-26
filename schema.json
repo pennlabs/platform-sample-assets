@@ -28,9 +28,35 @@
                     "text"
                 ]
             }
+        },
+        "strings": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "primary": {
+                        "type": "string"
+                    },
+                    "secondary": {
+                        "type": "string"
+                    },
+                    "action": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "format": "uri"
+                    }
+                },
+                "required": [
+                    "primary",
+                    "secondary"
+                ]
+            }
         }
     },
     "required": [
-        "assets"
+        "assets",
+        "strings"
     ]
 }
