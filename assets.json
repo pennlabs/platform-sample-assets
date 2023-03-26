@@ -1,6 +1,5 @@
 {
     "$schema": "./schema.json",
-    
     "assets": [
         {
             "image": "https://pennlabs-assets.s3.amazonaws.com/metadata-images/penn-labs.png",
