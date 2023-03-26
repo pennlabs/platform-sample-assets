@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "PlatformSampleAsset",
+    "type": "object",
+    "properties": {
+        "assets": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "image": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "text": {
+                        "type": "string"
+                    },
+                    "action": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "format": "uri"
+                    }
+                },
+                "required": [
+                    "image",
+                    "text"
+                ]
+            }
+        }
+    },
+    "required": [
+        "assets"
+    ]
+}
