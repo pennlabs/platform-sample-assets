@@ -5,8 +5,8 @@ on:
     paths:
       - 'assets.json'
   pull_request:
-    paths:
-      - 'assets.json'
+    branches:
+      - main
 
 jobs:
   validate:
