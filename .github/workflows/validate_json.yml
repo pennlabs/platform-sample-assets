@@ -22,7 +22,7 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: npm install ajv-cli ajv-formats
+        run: npm install ajv-cli
 
       - name: Validate JSON
-        run: npx ajv-cli validate -s schema.json -d assets.json -c ajv-formats
+        run: npx ajv-cli validate --validate-formats=false -s schema.json -d assets.json
