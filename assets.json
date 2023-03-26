@@ -10,7 +10,7 @@
     "strings": [
         {
             "primary": "Check out the Penn Labs TikTok",
-            "text": "Featuring exclusive content and much more 🔥🔥🔥",
+            "secondary": "Featuring exclusive content and much more 🔥🔥🔥",
             "actions": [
                 {
                     "title": "TikTok",
