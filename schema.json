@@ -35,22 +35,39 @@
                 "type": "object",
                 "properties": {
                     "primary": {
-                        "type": "string"
-                    },
-                    "secondary": {
-                        "type": "string"
-                    },
-                    "action": {
                         "type": [
                             "string",
                             "null"
-                        ],
-                        "format": "uri"
+                        ]
+                    },
+                    "secondary": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "actions": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "title": {
+                                    "type": "string"
+                                },
+                                "url": {
+                                    "type": "string",
+                                    "format": "uri"
+                                }
+                            },
+                            "required": [
+                                "title",
+                                "url"
+                            ]
+                        }
                     }
                 },
                 "required": [
-                    "primary",
-                    "secondary"
+                    "actions"
                 ]
             }
         }

@@ -10,7 +10,13 @@
     "strings": [
         {
             "primary": "Check out the Penn Labs TikTok",
-            "text": "Featuring exclusive content and much more 🔥🔥🔥"
+            "text": "Featuring exclusive content and much more 🔥🔥🔥",
+            "actions": [
+                {
+                    "title": "TikTok",
+                    "url": "https://tiktok.com/@pennlabs"
+                }
+            ]
         }
     ]
 }
