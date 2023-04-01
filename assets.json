@@ -5,18 +5,27 @@
             "image": "https://pennlabs-assets.s3.amazonaws.com/metadata-images/penn-labs.png",
             "text": "Penn Labs",
             "action": "https://pennlabs.org"
+        },
+        {
+            "image": "https://pennlabs.github.io/platform-sample-assets/images/apple-wallet.png",
+            "text": "Your PennCard. Now on your iPhone. Tap to learn more",
+            "action": "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+        },
+        {
+            "image": "https://pennlabs.github.io/platform-sample-assets/images/fratgpt.png",
+            "text": "FratGPT",
+            "action": null
+        },
+        {
+            "image": "https://pennlabs.github.io/platform-sample-assets/images/raid.png",
+            "text": "Raid: Shadow Legends",
+            "action": "https://plarium.com"
+        },
+        {
+            "image": "https://pennlabs.github.io/platform-sample-assets/images/rearchat.png",
+            "text": "Rearchat",
+            "action": "sidechat://"
         }
     ],
-    "strings": [
-        {
-            "primary": "Check out the Penn Labs TikTok",
-            "secondary": "Featuring exclusive content and much more 🔥🔥🔥",
-            "actions": [
-                {
-                    "title": "TikTok",
-                    "url": "https://tiktok.com/@pennlabs"
-                }
-            ]
-        }
-    ]
+    "strings": []
 }
