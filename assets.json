@@ -6,7 +6,7 @@
             "text": "Penn Labs",
             "action": "https://pennlabs.org"
         },
-        {
+        /* {
             "image": "https://pennlabs.github.io/platform-sample-assets/images/apple-wallet.png",
             "text": "Your PennCard. Now on your iPhone. Tap to learn more",
             "action": "https://www.youtube.com/watch?v=xvFZjo5PgG0"
@@ -25,7 +25,7 @@
             "image": "https://pennlabs.github.io/platform-sample-assets/images/rearchat.png",
             "text": "Rearchat",
             "action": "sidechat://"
-        }
+        } */
     ],
     "strings": []
 }
