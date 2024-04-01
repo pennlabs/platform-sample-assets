@@ -27,9 +27,9 @@
             "action": "https://plarium.com"
         },
         {
-            "image": "https://pennlabs.github.io/platform-sample-assets/images/rearchat.png",
-            "text": "Rearchat",
-            "action": "sidechat://"
+            "image": "https://pennlabs.github.io/platform-sample-assets/images/rank.png",
+            "text": "Penn ClubRank",
+            "action": "https://pennclubs.com/clubrank"
         }
     ],
     "strings": []
