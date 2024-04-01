@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penn Mobile Premium</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui;
+            padding: 32px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgb(255, 200, 0);
+            padding: 0 0.25em;
+            border-radius: 0.1em;
+            text-transform: uppercase;
+        }
+
+        h1,
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .benefits {
+            margin-bottom: 2rem;
+        }
+
+        .benefit {
+            background-color: rgba(0, 0, 0, 0.1);
+            padding: 16px;
+            border-radius: 16px;
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .benefit-emoji {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+
+        .benefit-text {
+            flex-grow: 1;
+        }
+
+        .pricing {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        .coming-soon {
+            font-style: italic;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Penn Mobile <span class="badge">Premium</span></h1>
+    <p>Your Penn experience, supercharged.</p>
+    <div class="benefits">
+        <h2>Benefits include:</h2>
+        <div class="benefit">
+            <div class="benefit-emoji">🍟</div>
+            <div class="benefit-text">Labs newbies will buy and deliver Penn Dining food for you</div>
+        </div>
+        <div class="benefit">
+            <div class="benefit-emoji">🏨</div>
+            <div class="benefit-text">Access to GSRs in Penn Labs member residences</div>
+        </div>
+        <div class="benefit">
+            <div class="benefit-emoji">👔</div>
+            <div class="benefit-text">Leave your clothing in laundry machines for as long as you want</div>
+        </div>
+        <div class="benefit">
+            <div class="benefit-emoji">🍗</div>
+            <div class="benefit-text">Properly cooked chicken at 1920 Commons</div>
+        </div>
+    </div>
+    <div class="pricing">
+        <div class="price">$19.99/month</div>
+        <div class="coming-soon">Coming soon</div>
+    </div>
+</body>
+
+</html>

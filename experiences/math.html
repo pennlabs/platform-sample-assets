@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penn Mobile Math Challenge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui;
+            background-color: blue;
+            color: white;
+        }
+
+        #root {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 32px;
+            gap: 32px;
+        }
+        
+        button {
+            appearance: none;
+            border: none;
+            font-weight: 500;
+            padding: 16px 48px;
+            border-radius: 16px;
+            background-color: yellow;
+            color: blue;
+            font-size: 1.5rem;
+            animation: obnoxious 0.5s infinite;
+        }
+
+        @keyframes obnoxious {
+            0% {
+                transform: scale(1) rotate(-30deg);
+            }
+
+            50% {
+                transform: scale(1.1) rotate(30deg);
+            }
+
+            100% {
+                transform: scale(1) rotate(-30deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function start() {
+            const root = document.getElementById("root");
+            root.innerHTML = `
+                <p>${Math.random()} × ${Math.random()}</p>
+            `;
+
+            setTimeout(() => {
+                root.innerHTML = `
+                    <h1>You failed!</h1>
+                    <button onclick="start()">Try again</button>
+                `;
+            }, 100);
+        }
+    </script>
+
+    <div id="root">
+        <h1>Can YOU solve this math problem?</h1>
+        <button onclick="start()">Start</button>
+    </div>
+</body>
+
+</html>
