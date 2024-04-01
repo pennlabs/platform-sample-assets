@@ -6,12 +6,14 @@
 <body>
     <p>Loading, please wait...</p>
     <script>
-        const ads = [
-            "/platform-sample-assets/experiences/premium.html",
-            "/platform-sample-assets/experiences/math.html",
-        ];
+        (async () => {
+            const res = await fetch("/platform-sample-assets/experiences.json", {
+                cache: "no-store",
+            });
 
-        window.location.href = ads[Math.floor(ads.length * Math.random())];
+            const experiences = await res.json();
+            window.location.href = experiences[Math.floor(Math.random() * experiences.length)];
+        })();
     </script>
 </body>
 </html>
