@@ -2,11 +2,6 @@
     "$schema": "./schema.json",
     "assets": [
         {
-            "image": "https://pennlabs.github.io/platform-sample-assets/images/coffee.jpg",
-            "text": "Buy us a drink! :D",
-            "action": "https://www.youtube.com/watch?v=xvFZjo5PgG0"
-        },
-        {
             "image": "https://pennlabs-assets.s3.amazonaws.com/metadata-images/penn-labs.png",
             "text": "Penn Labs",
             "action": "https://pennlabs.org"
